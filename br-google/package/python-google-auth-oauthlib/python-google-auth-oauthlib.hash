@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/google-auth-oauthlib/json
+md5	e952ea09378970f45dbc923d7eb14d03  google-auth-oauthlib-0.2.0.tar.gz
+sha256	226d1d0960f86ba5d9efd426a70b291eaba96f47d071657e0254ea969025728a  google-auth-oauthlib-0.2.0.tar.gz
+# Locally computed sha256 checksums
+sha256	c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4  LICENSE

@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PYTHON_GOOGLE_AUTH_OAUTHLIB
+	bool "python-google-auth-oauthlib"
+	select BR2_PACKAGE_PYTHON_GOOGLE_AUTH # runtime
+	select BR2_PACKAGE_PYTHON_REQUESTS_OAUTHLIB # runtime
+	help
+	  Google Authentication Library.
+
+	  https://github.com/GoogleCloudPlatform/google-auth-library-python-oauthlib

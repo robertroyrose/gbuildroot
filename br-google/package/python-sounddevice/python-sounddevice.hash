@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/sounddevice/json
+md5	d3fdf802d50624497e792261035c44f6  sounddevice-0.3.12.tar.gz
+sha256	f59ae4e2ec12cb1e5940f06f08804ecca855d959de25ca45a3938de45d0f81a2  sounddevice-0.3.12.tar.gz
+# Locally computed sha256 checksums
+sha256	61b088480bcb5ed5c7af40d18f9ff016fd01f018783ac8c63c0b838a1a322037  LICENSE

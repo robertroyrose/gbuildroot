@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_SOUNDDEVICE
+	bool "python-sounddevice"
+	select BR2_PACKAGE_PYTHON_CFFI # runtime
+	help
+	  Play and Record Sound with Python.
+
+	  http://python-sounddevice.readthedocs.io/

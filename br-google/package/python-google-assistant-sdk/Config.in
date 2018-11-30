@@ -1,0 +1,14 @@
+config BR2_PACKAGE_PYTHON_GOOGLE_ASSISTANT_SDK
+	bool "python-google-assistant-sdk"
+	select BR2_PACKAGE_PYTHON_CLICK
+	select BR2_PACKAGE_PYTHON_GOOGLE_ASSISTANT_GRPC
+	select BR2_PACKAGE_PYTHON_GOOGLE_AUTH_OAUTHLIB
+	select BR2_PACKAGE_PYTHON_PATHLIB2
+	select BR2_PACKAGE_PYTHON_SOUNDDEVICE
+	select BR2_PACKAGE_PYTHON_URLLIB3
+
+	help
+	  This package contains a collection of samples and tools to help
+	  you get started with the `Google Assistant SDK`_ using `Python`_.
+
+	  https://pypi.org/project/google-assistant-sdk

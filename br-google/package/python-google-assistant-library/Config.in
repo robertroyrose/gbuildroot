@@ -1,0 +1,4 @@
+config BR2_PACKAGE_PYTHON_GOOGLE_ASSISTANT_LIBRARY
+	bool "python-google-assistant-library"
+	help
+	  Google Assistant Library

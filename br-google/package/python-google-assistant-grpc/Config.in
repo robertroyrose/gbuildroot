@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PYTHON_GOOGLE_ASSISTANT_GRPC
+	bool "python-google-assistant-grpc"
+	select BR2_PACKAGE_PYTHON_GOOGLEAPIS_COMMON_PROTOS # runtime
+	select BR2_PACKAGE_PYTHON_GRPCIO # runtime
+	help
+	  Google Assistant API gRPC bindings.
+
+	  https://github.com/googlesamples/assistant-sdk-python

@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/google-assistant-grpc/json
+md5	41af16b224edfeaceb53c210e181b806  google-assistant-grpc-0.2.0.tar.gz
+sha256	a58e0bc335eefd7c1435358d828cf92d469439ceacc302e2d96e2a8020338dbd  google-assistant-grpc-0.2.0.tar.gz
+# Locally computed sha256 checksums
+sha256	8515133bdb16915542581da1bce6e1344883d811b05f3bd159152e20b8825259  LICENSE

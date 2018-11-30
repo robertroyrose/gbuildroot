@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/googleapis-common-protos/json
+md5	f703d886bc49b6cbf5561d9a4b79edb4  googleapis-common-protos-1.5.5.tar.gz
+sha256	0946967c4c29b1339bb211949e1e17dbe0ae9ff8265fafa7bf4cf2164ef5a3b1  googleapis-common-protos-1.5.5.tar.gz
+# Locally computed sha256 checksums
+sha256	c62a1cc62e85e51a18ddd590970e03ffe47017653033cc515781fdb445a7aa5e  LICENSE

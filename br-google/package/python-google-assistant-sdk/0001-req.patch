@@ -1,0 +1,7 @@
+diff -Nrc /usr/local/google/home/robertroyrose/x/google-assistant-sdk-0.5.0/googlesamples/assistant/grpc/requirements.txt ./googlesamples/assistant/grpc/requirements.txt
+*** /usr/local/google/home/robertroyrose/x/google-assistant-sdk-0.5.0/googlesamples/assistant/grpc/requirements.txt	1969-12-31 16:00:00.000000000 -0800
+--- ./googlesamples/assistant/grpc/requirements.txt	2018-11-09 10:16:27.327931696 -0800
+***************
+*** 0 ****
+--- 1 ----
++ #
