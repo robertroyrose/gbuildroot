@@ -1,0 +1,26 @@
+From aa93b05024621a49977f06322146c568d32d2795 Mon Sep 17 00:00:00 2001
+From: Robert Rose <robertroyrose@gmail.com>
+Date: Fri, 30 Nov 2018 20:35:34 -0800
+Subject: [PATCH 1/1] Fix find_library() for buildroot
+
+Signed-off-by: Robert Rose <robertroyrose@gmail.com>
+---
+ sounddevice.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/sounddevice.py b/sounddevice.py
+index a106a3c..0cb4681 100644
+--- a/sounddevice.py
++++ b/sounddevice.py
+@@ -64,7 +64,7 @@ try:
+             'bin\\libportaudio-2.dll',  # DLL from conda-forge
+             'lib/libportaudio.dylib',  # dylib from anaconda
+             ):
+-        _libname = _find_library(_libname)
++        _libname = 'libportaudio.so' # _find_library(_libname)
+         if _libname is not None:
+             break
+     else:
+-- 
+2.19.1
+
