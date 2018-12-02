@@ -3,9 +3,9 @@
 ## Build buildroot
 
 ```
-tar xf ~/Downloads/buildroot-2018.08.2.tar.gz 
-cd buildroot-2018.08.2
-make BR2_EXTERNAL=../br-google ../br-google/configs/raspberrypi3_defconfig
+tar xf ~/Downloads/buildroot-2018.11.tar.gz 
+cd buildroot-2018.11
+make BR2_EXTERNAL=../br-google raspberrypi3_defconfig
 make
 sudo dd if=output/images/sdcard.img of=/dev/mmcblk0 bs=65536
 ```
