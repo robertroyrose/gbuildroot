@@ -15,8 +15,11 @@ PYTHON_GOOGLE_ASSISTANT_LIBRARY_LICENSE = Apache-2.0
 PYTHON_GOOGLE_ASSISTANT_LIBRARY_LICENSE_FILES = LICENSE
 
 define PYTHON_GOOGLE_ASSISTANT_LIBRARY_INSTALL_TARGET_CMDS
-  $(INSTALL) -d -m 0755 $(TARGET_DIR)/usr/lib/python3.6/site-packages/google/assistant/library
-  $(INSTALL) -D -m 0755 $(@D)/google/assistant/library/* $(TARGET_DIR)/usr/lib/python3.6/site-packages/google/assistant/library
+  $(INSTALL) -d -m 0755 $(TARGET_DIR)/usr/lib/python3.7/site-packages/google/assistant/library
+  $(INSTALL) -D -m 0755 $(@D)/google/assistant/library/* $(TARGET_DIR)/usr/lib/python3.7/site-packages/google/assistant/library
+  $(INSTALL) -d -m 0755 $(TARGET_DIR)/usr/lib/python3.7/site-packages/google_assistant_library-1.0.0.dist-info
+  $(INSTALL) -D -m 0755 $(@D)/google_assistant_library-1.0.0.dist-info/* $(TARGET_DIR)/usr/lib/python3.7/site-packages/google_assistant_library-1.0.0.dist-info
+  $(INSTALL) -D -m 0755 $(@D)/google_assistant_library-1.0.0-py3.5-nspkg.pth $(TARGET_DIR)/usr/lib/python3.7/site-packages/google_assistant_library-1.0.0-py3.5-nspkg.pth
 endef
 
 $(eval $(generic-package))
